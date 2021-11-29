@@ -60,7 +60,7 @@ export default function ManageToken({setModalName}) {
               <svg onClick={() => setModalName('none')} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </span>
           </div>
-          <div className="bg-gray-400 p-2 rounded-lg mb-4">
+          <div className="bg-gray-300 p-2 rounded-lg mb-4">
             <button className={classNames('w-2/4', 'font-bold', 'p-2', 'rounded-lg', 'hover:text-gray-800', {'bg-white': manangeType == 'lists'}, {'hover:bg-gray-200': manangeType == 'lists'})} onClick={() => setManageType('lists')}>Lists</button>
             <button className={classNames('w-2/4', 'font-bold', 'p-2', 'rounded-lg', 'hover:text-gray-800', {'bg-white': manangeType == 'tokens'}, {'hover:bg-gray-200': manangeType == 'tokens'})} onClick={() => setManageType('tokens')}>Tokens</button>
           </div>

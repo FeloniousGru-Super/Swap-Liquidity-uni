@@ -16,13 +16,13 @@ export default function Topbar() {
       <div className="flex-1">
       </div>
       <div className="flex-1 flex justify-center">
-        <div className="bg-gray-300 p-2 rounded-2xl">
-          <button className={classNames('font-bold', 'py-2', 'px-4', 'rounded-lg', 'hover:text-gray-800', {'bg-white': pathname === '/' || pathname === '/swap'}, {'hover:bg-gray-200': pathname === '/' || pathname === '/swap'})} onClick={() => navigate('/swap')}>Swap</button>
-          <button className={classNames('font-bold', 'py-2', 'px-4', 'rounded-lg', 'hover:text-gray-800', {'bg-white': pathname === '/liquidity'}, {'hover:bg-gray-200': pathname === '/liquidity'})} onClick={() => navigate('/liquidity')}>Liquidity</button>
+        <div className="bg-white p-1 rounded-2xl">
+          <button className={classNames('font-bold', 'py-1', 'px-4', 'rounded-2xl', 'hover:text-gray-800', {'bg-gray-300': pathname === '/' || pathname === '/swap'}, {'hover:bg-gray-200': pathname === '/' || pathname === '/swap'})} onClick={() => navigate('/swap')}>Swap</button>
+          <button className={classNames('font-bold', 'py-1', 'px-4', 'rounded-2xl', 'hover:text-gray-800', {'bg-gray-300': pathname === '/liquidity'}, {'hover:bg-gray-200': pathname === '/liquidity'})} onClick={() => navigate('/liquidity')}>Liquidity</button>
         </div>
       </div>
       <div className="flex-1 flex items-center justify-end">
-        <button className="py-2 px-4 mr-7 rounded-2xl bg-red-100 text-orange hover:bg-red-300">
+        <button className="py-2 px-4 mr-7 rounded-2xl bg-red-100 text-orange hover:bg-red-200 hover:border-red-300 border-transparent border-2 hover:border-current">
           Connect Wallet
         </button>
       </div>

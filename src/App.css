@@ -23,11 +23,11 @@ input[type=number] {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: #eba096;
+  background: #888;
   cursor: pointer;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #df8377;
+  background: #555;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
