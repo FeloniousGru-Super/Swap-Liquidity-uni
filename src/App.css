@@ -1,0 +1,34 @@
+input:focus-visible {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.text-theme {
+  color: #033C6C
+}
+.text-orange {
+  color: #E96150;
+}
+.bg-orange {
+  background-color: #E96150;
+}
+::-webkit-scrollbar {
+  width: 10px
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #eba096;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #df8377;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
